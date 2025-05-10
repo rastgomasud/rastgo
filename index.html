@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | University Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">PS Website</div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="highlight">Rastgo</span></h1>
+          <h2>Computer Science Student</h2>
+          <p>Creating innovative solutions through code</p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="hero-image">
+          <img src="static/images/hero-img.jpg" alt="Rastgo's Profile Picture" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I'm a passionate Computer Science student at [Your University]
+          with a focus on web development and software engineering.
+        </p>
+        <p>
+          This portfolio is part of my university project showcasing my
+          skills in HTML, CSS, and Python.
+        </p>
+        <div class="education">
+          <h3>Education</h3>
+          <p>
+            <strong>University Of Sulaymaniah</strong> - BSc Computer Science
+            (2024-2025)
+          </p>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="static/images/about.jpg" alt="About Me Image">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="static/images/project1.jpg" alt="Project 1" />
+            </div>
+            <div class="project-info">
+              <h3>University Management System</h3>
+              <p>A Python-based system for managing student records and courses.</p>
+              <a href="#" class="btn-small">View Details</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="static/images/project2.jpg" alt="Project 2" />
+            </div>
+            <div class="project-info">
+              <h3>E-commerce Website</h3>
+              <p>Full-stack e-commerce platform with HTML, CSS, and Python.</p>
+              <a href="#" class="btn-small">View Details</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="static/images/project3.jpg" alt="Project 3" />
+            </div>
+            <div class="project-info">
+              <h3>Data Visualization Tool</h3>
+              <p>Interactive data visualization using Python libraries.</p>
+              <a href="#" class="btn-small">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Responsive Design</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <ul>
+              <li>Python</li>
+              <li>Flask</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Other</h3>
+            <ul>
+              <li>Git</li>
+              <li>Linux</li>
+              <li>Problem Solving</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> rastgomasud@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 07725061040</p>
+            <div class="social-links">
+              <a href="https://www.instagram.com/rastgoy_m_masud" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.snapchat.com/add/rastgonovich" target="_blank"><i class="fab fa-snapchat"></i></a>
+              <a href="https://github.com/rastgomasud" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <form class="contact-form" action="/contact" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025.</p>
+        <p>University Project - Computer Science Department</p>
+      </div>
+    </footer>
+
+    <script src="web.js"></script>
+  </body>
+</html>

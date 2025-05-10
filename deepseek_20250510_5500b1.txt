@@ -1,0 +1,11 @@
+my-portfolio/
+├── app.py                # Python backend (Flask)
+├── static/
+│   ├── css/
+│   │   └── style.css     # Main styles
+│   ├── js/
+│   │   └── script.js     # JavaScript for interactivity
+│   └── images/           # Your portfolio images
+├── templates/
+│   └── index.html        # Main HTML file
+└── requirements.txt      # Python dependencies
